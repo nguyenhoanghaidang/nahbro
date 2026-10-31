@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#050505" />
+    <meta
+      name="description"
+      content="Portfolio cá nhân Nguyễn Hoàng Hải Đăng"
+    />
+    <title>Hair Dangdw x MCD</title>
+    <link rel="icon" href="avatar.jpg" type="image/jpeg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="scene" aria-label="Trang cá nhân">
+        <div class="grid" aria-hidden="true"></div>
+
+        <div class="corner" aria-hidden="true">
+          <span class="corner-lines"></span>
+        </div>
+
+        <article class="card">
+          <div class="avatar-block">
+            <div class="avatar-shell" id="avatarShell">
+              <div class="orbit" aria-hidden="true"></div>
+
+              <img
+                class="avatar"
+                src="avatar.jpg"
+                alt="Biểu tượng đại diện Nguyễn Hoàng Hải Đăng"
+                width="480"
+                height="480"
+              />
+
+              <span class="orbit-dot dot-one"></span>
+              <span class="orbit-dot dot-two"></span>
+
+              <button
+                class="music-toggle"
+                id="musicToggle"
+                type="button"
+                aria-label="Phát nhạc"
+                title="Phát hoặc tạm dừng nhạc"
+              >
+                <span id="musicIcon">▶</span>
+              </button>
+
+              <audio id="backgroundMusic" src="music.mp3" loop></audio>
+            </div>
+            <p class="status">
+              <span aria-hidden="true"></span>Learning &amp; building
+            </p>
+          </div>
+
+          <div class="content">
+            <p class="greeting">Hi, I'm</p>
+            <h1 class="name"><span>NGUYEN HOANG</span><span>HAI DANG</span></h1>
+            <p class="role-line">
+              Software Engineering Student <span>•</span> FPT University Da Nang
+            </p>
+            <p
+              class="tagline"
+              id="typewriter"
+              data-text="Cảm ơn những người đã rời đi, trân trọng những người còn ở lại. Cảm ơn quá khứ hiện tại tương lai, mong cho phút giây này tồn tại mãi mãi yeh feel blessed."
+            ></p>
+            <p class="detail">HTML • CSS • Java • C</p>
+
+            <nav class="socials" aria-label="Liên kết cá nhân">
+              <a
+                class="social-link facebook"
+                href="https://www.facebook.com/haidangsad"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Facebook"
+                title="Facebook"
+                ><svg viewBox="0 0 24 24">
+                  <path
+                    d="M14.2 8.2h2.7V4.3c-.5-.1-2.1-.2-3.8-.2-3.7 0-6.2 2.2-6.2 6.4V14H3v4.4h3.9V24h4.8v-5.6h4l.6-4.4h-4.6v-3.1c0-1.3.4-2.7 2.5-2.7Z"
+                  /></svg
+              ></a>
+              <a
+                class="social-link github"
+                href="https://github.com/nguyenhoanghaidang"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="GitHub"
+                title="GitHub"
+                ><svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.6.1.8-.2.8-.5v-2.2c-3.3.7-4-1.4-4-1.4-.5-1.4-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.4-1.3-5.4-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.1 0 0 1-.3 3.1 1.2A10.7 10.7 0 0 1 12 6.4a10.7 10.7 0 0 1 2.8.4c2.2-1.5 3.1-1.2 3.1-1.2.6 1.5.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.4 5.7.4.4.8 1.1.8 2.2v2.8c0 .3.2.6.8.5A11.4 11.4 0 0 0 12 .8Z"
+                  /></svg
+              ></a>
+              <a
+                class="social-link telegram"
+                href="https://t.me/mcdblowsurmind"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Telegram"
+                title="Telegram"
+                ><svg viewBox="0 0 24 24">
+                  <path
+                    d="m21.6 3.8-3.2 15.1c-.2 1.1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.4-5 9-8.1c.4-.4-.1-.6-.6-.2L6 12.6l-4.8-1.5c-1-.3-1.1-1 .2-1.5L20 2.4c.9-.3 1.8.2 1.6 1.4Z"
+                  /></svg
+              ></a>
+              <a
+                class="social-link tiktok"
+                href="https://www.tiktok.com/@nguynhonghaidang"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="TikTok"
+                title="TikTok"
+                ><svg viewBox="0 0 24 24">
+                  <path
+                    d="M17.2 2.2c.3 2 1.5 3.3 3.5 3.4V9c-1.2 0-2.4-.4-3.5-1v6.8a6.4 6.4 0 1 1-5.5-6.3V12a3 3 0 1 0 2.1 2.8V2.2h3.4Z"
+                  /></svg
+              ></a>
+              <a
+                class="social-link email"
+                href="mailto:haidang1234ll@gmail.com"
+                aria-label="Email"
+                title="Email"
+                ><svg viewBox="0 0 24 24">
+                  <path
+                    d="M3 4.5h18A2.5 2.5 0 0 1 23.5 7v10A2.5 2.5 0 0 1 21 19.5H3A2.5 2.5 0 0 1 .5 17V7A2.5 2.5 0 0 1 3 4.5Zm9 8 8.1-5.3H3.9l8.1 5.3ZM3 17h18V9l-8.3 5.4a1.3 1.3 0 0 1-1.4 0L3 9v8Z"
+                  /></svg
+              ></a>
+            </nav>
+          </div>
+        </article>
+
+        <p class="footer-note">
+          <span
+            >HẠNH PHÚC CÓ NHIỀU LOẠI VÀ GẶP ĐƯỢC EM LÀ MỘT TRONG NHỮNG LOẠI
+            ĐÓ.</span
+          >
+        </p>
+      </section>
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const typewriter = document.getElementById("typewriter");
+
+        if (!typewriter) {
+          return;
+        }
+
+        const text = typewriter.getAttribute("data-text");
+        const speed = 40;
+        let index = 0;
+
+        typewriter.textContent = "";
+        typewriter.classList.add("typing");
+
+        function typeText() {
+          if (index < text.length) {
+            typewriter.textContent += text.charAt(index);
+            index++;
+
+            setTimeout(typeText, speed);
+          } else {
+            setTimeout(function () {
+              typewriter.classList.remove("typing");
+            }, 700);
+          }
+        }
+
+        typeText();
+        const music = document.getElementById("backgroundMusic");
+        const musicToggle = document.getElementById("musicToggle");
+        const musicIcon = document.getElementById("musicIcon");
+        const avatarShell = document.getElementById("avatarShell");
+
+        if (music && musicToggle && musicIcon && avatarShell) {
+          musicToggle.addEventListener("click", async function () {
+            if (music.paused) {
+              try {
+                await music.play();
+
+                avatarShell.classList.add("is-playing");
+                musicIcon.textContent = "Ⅱ";
+                musicToggle.setAttribute("aria-label", "Tạm dừng nhạc");
+              } catch (error) {
+                console.error("Không thể phát nhạc:", error);
+              }
+            } else {
+              music.pause();
+
+              avatarShell.classList.remove("is-playing");
+              musicIcon.textContent = "▶";
+              musicToggle.setAttribute("aria-label", "Phát nhạc");
+            }
+          });
+        }
+      });
+    </script>
+    <script>
+      // Chặn chuột phải
+      document.addEventListener("contextmenu", (event) =>
+        event.preventDefault(),
+      );
+
+      // Chặn các phím tắt F12, Ctrl+Shift+I, Ctrl+Shift+C, Ctrl+U (Xem nguồn trang)
+      document.onkeydown = function (e) {
+        if (e.keyCode == 123) {
+          // F12
+          return false;
+        }
+        if (e.ctrlKey && e.shiftKey && (e.keyCode == 73 || e.keyCode == 67)) {
+          // Ctrl+Shift+I / C
+          return false;
+        }
+        if (e.ctrlKey && e.keyCode == 85) {
+          // Ctrl+U
+          return false;
+        }
+      };
+    </script>
+  </body>
+</html>
